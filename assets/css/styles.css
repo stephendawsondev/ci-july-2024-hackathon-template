@@ -12891,7 +12891,7 @@ body {
   }
 
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    opacity: 50%;
   }
 
   #mainNav .nav-link:active {
@@ -12935,6 +12935,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.logo {
+  width: 400px;
 }
 
 /* custom css for flag */
@@ -13056,6 +13060,13 @@ body {
   .text {
     display: none;
     /* Hide text content on smaller screens */
+  }
+}
+
+/* Handling logo size on screens smaller than 992px */
+@media (max-width: 991px) {
+  .logo {
+    width: 200px;
   }
 }
 
