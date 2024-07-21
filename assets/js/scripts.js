@@ -52,10 +52,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-// script.js
-
-// Add event listener to the button
-document.querySelector('button').addEventListener('click', function() {
-    alert('Welcome to the LGBTQIA+ Resource Directory!');
-});

@@ -1,0 +1,40 @@
+#resource-title {
+  text-align: center;
+  margin: 40px;
+  padding: 30px;
+  background: linear-gradient(90deg, #FF4444, #FF9F44, #FFFF44, #FFCA44, #FF4444, #9A44FF, #D144FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resource-row {
+  margin: auto;
+}
+
+.resource-img {
+  display: block;
+  margin: 15px auto;
+  height: auto;
+  padding: 10px;
+  width: 15vw;
+}
+
+
+
+.resource-row a {
+  text-decoration: none;
+}
+
+.resource-row h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  background: linear-gradient(90deg, #FF4444, #FF9F44, #FFFF44, #FFCA44, #FF4444, #9A44FF, #D144FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resource-row p {
+  color: #ffffffce;
+  margin-top: 20px;
+  text-align: center;
+}
