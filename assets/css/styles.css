@@ -99,9 +99,6 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -130,6 +127,10 @@ body {
 
 .link-3:hover {
   color: #FFD700 !important; /* yellow */
+}
+
+.link-4:hover {
+  color: #008000 !important; /* green */
 }
 
 /* LOGO RAINBOW colors*/

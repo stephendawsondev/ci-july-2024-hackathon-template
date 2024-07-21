@@ -2,21 +2,27 @@
   text-align: center;
   margin: 40px;
   padding: 30px;
-  background: linear-gradient(90deg, #FF4444, #FF9F44, #FFFF44, #FFCA44, #FF4444, #9A44FF, #D144FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .resource-row {
   margin: auto;
 }
 
+/* Align h1 to center */
+#resource-title {
+  text-align: center;
+}
+
 .resource-img {
-  display: block;
-  margin: 15px auto;
-  height: auto;
-  padding: 10px;
-  width: 15vw;
+  width: 100px; /* Set the width of the images */
+  height: 100px; /* Set the height of the images */
+  object-fit: contain; /* Make the images cover the entire area */
+  border-radius: 10px; /* Add a border radius to the images */
+  display: block; /* Make the image a block element */
+  margin: 10px auto; /* Add margin top and bottom, and center horizontally */
 }
 
 
@@ -28,13 +34,13 @@
 .resource-row h3 {
   text-align: center;
   padding-bottom: 20px;
-  background: linear-gradient(90deg, #FF4444, #FF9F44, #FFFF44, #FFCA44, #FF4444, #9A44FF, #D144FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .resource-row p {
-  color: #ffffffce;
+  color: #010101;
   margin-top: 20px;
   text-align: center;
 }
