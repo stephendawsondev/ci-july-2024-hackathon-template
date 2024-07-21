@@ -20,7 +20,9 @@ footer {
 
 h1 {
     text-align: center;
-    color: #ad1457;
+    background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     font-size: 3em; 
     margin-bottom: 20px; 
 }
@@ -35,19 +37,20 @@ h2 {
 
 p {
     text-align: center;  
+    line-height: 1.6; /* Improve readability */
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .team-member {
-    background-color: #fff;
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px white;
 }
 
 .team-member img {
@@ -58,7 +61,7 @@ p {
 
 .team-member-info {
     padding: 15px;
-    text-align: center; /* Center the text in this section */
+    text-align: center; 
 }
 
 .team-member-info h2 {
@@ -74,15 +77,41 @@ p {
 .team-member-info a {
     display: inline-block;
     margin-top: 5px;
-    color: #0077b5; /* LinkedIn color */
+    color: #0077b5; 
     text-decoration: none;
-    margin: 0 10px; /* Add horizontal margin for spacing */
+    margin: 0 10px; 
 }
 
 .team-member-info a i {
-    margin-right: 5px; /* Space between icon and text */
+    margin-right: 5px; 
 }
 
 .team-member-info a:hover {
     text-decoration: underline;
 }
+
+.about-section {
+    background-color: white; /* Ensure the section background is white */
+    padding: 40px 0; /* Add some padding for spacing */
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
