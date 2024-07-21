@@ -2,7 +2,7 @@
   text-align: center;
   margin: 40px;
   padding: 30px;
-  background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+  background: linear-gradient(90deg, #FF0000, #FF7F00, #ffd900, #00ff2f, #0000FF, #4B0082, #9400D3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -34,7 +34,7 @@
 .resource-row h3 {
   text-align: center;
   padding-bottom: 20px;
-  background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+  background: linear-gradient(90deg, #FF0000, #FF7F00, #ffc800, #00FF00, #0000FF, #4B0082, #9400D3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
