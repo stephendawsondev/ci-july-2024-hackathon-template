@@ -1,9 +1,11 @@
-.project {
-    background: gray;
-}
+
 #resource-title {
     text-align: center;
-    margin-top: 40px;
+    margin: 40px;
+    padding-bottom: 30px;
+    background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     
     .resource-row {
@@ -24,6 +26,17 @@
       text-decoration: none;
     }
 
+    #project h1 {
+      
+    }
+
     #project h3 {
-        text-align: center;
+      text-align: center;
+      background: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    #project p {
+      color: #ffffffce;
     }
