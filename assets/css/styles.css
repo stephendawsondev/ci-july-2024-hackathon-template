@@ -129,6 +129,10 @@ body {
   color: #FFD700 !important; /* yellow */
 }
 
+.link-4:hover {
+  color: #008000 !important; /* green */
+}
+
 /* LOGO RAINBOW colors*/
 
 .red-r {
